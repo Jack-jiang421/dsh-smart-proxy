@@ -1,6 +1,6 @@
 {
   "name": "dsh-smart-proxy",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "type": "module",
   "description": "Smart network proxy manager for DeepSeek Harness — fixes desktop Transport Failed and TLS interception problems",
   "main": "./lib/index.js",

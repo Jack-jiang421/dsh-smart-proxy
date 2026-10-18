@@ -63,13 +63,13 @@
           "proxy"
         ],
         "sortKeys": {
-          "added": 1792324800
+          "added": 1792333282
         }
       },
       "versions": [
         {
-          "version": "1.2.0",
-          "publishTimestamp": 1792324800,
+          "version": "1.2.1",
+          "publishTimestamp": 1792333282,
           "source": {
             "type": "npm"
           },
