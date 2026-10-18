@@ -1,0 +1,21 @@
+# DSH Bundle Patch — dsh-smart-proxy
+# 此文件由 package.json 中的 dsh.bundle.patch 引用
+# DSH 运行时通过此文件将插件挂载到 Cordis 插件树
+
+- insert:
+    - id: smart-proxy
+      name: dsh-smart-proxy
+      config:
+        mode: manual
+        proxyUrl: "http://127.0.0.1:7890"
+        ignoreTlsErrors: true
+        streamTimeout: 600000
+        connectTimeout: 30000
+        keepAlive: true
+        retryOnTransportError: true
+        maxRetries: 3
+        bypassDomains:
+          - localhost
+          - 127.0.0.1
+          - "::1"
+        autoTest: true

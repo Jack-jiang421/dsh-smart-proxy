@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Baobo DSH Plugins",
+    "zh": "baobo 的 DSH 插件"
+  },
+  "description": {
+    "en": "Plugins maintained by baobo for DeepSeek Harness.",
+    "zh": "baobo 维护的 DeepSeek Harness 插件索引。"
+  },
+  "metadata": {
+    "categories": {
+      "network": {
+        "title": {
+          "en": "Network",
+          "zh": "网络"
+        }
+      }
+    },
+    "labels": {
+      "proxy": {
+        "title": {
+          "en": "Proxy",
+          "zh": "代理"
+        }
+      }
+    },
+    "sortKeys": {
+      "added": {
+        "title": {
+          "en": "Added",
+          "zh": "收录时间"
+        },
+        "order": "desc"
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-smart-proxy",
+      "title": {
+        "en": "Smart Proxy",
+        "zh": "智能网络代理"
+      },
+      "description": {
+        "en": "Switchable proxy modes, connectivity self-check and SSE timeout protection — fixes Transport Failed and TLS interception.",
+        "zh": "可切换代理模式、连通性自检与 SSE 超时保护，解决 Transport Failed 与 TLS 证书拦截。"
+      },
+      "author": "baobo",
+      "homepage": "https://github.com/Jack-jiang421/dsh-smart-proxy#readme",
+      "repository": {
+        "url": "https://github.com/Jack-jiang421/dsh-smart-proxy"
+      },
+      "metadata": {
+        "category": "network",
+        "keywords": [
+          "proxy",
+          "tls",
+          "transport-failed",
+          "network"
+        ],
+        "labels": [
+          "proxy"
+        ],
+        "sortKeys": {
+          "added": 1792324800
+        }
+      },
+      "versions": [
+        {
+          "version": "1.2.0",
+          "publishTimestamp": 1792324800,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0"
+          }
+        }
+      ]
+    }
+  ]
+}
