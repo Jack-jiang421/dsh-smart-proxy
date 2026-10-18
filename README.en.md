@@ -25,7 +25,8 @@ This plugin chains proxy selection, connectivity verification and keep-alive tog
 ## Install
 
 ```bash
-dsh plugin add dsh-smart-proxy
+dsh plugin --profile web add dsh-smart-proxy       # web / plugin center
+dsh plugin --profile desktop add dsh-smart-proxy   # desktop app
 ```
 
 Restart `dsh web` afterwards and check that `smart-proxy` is enabled under **Settings → Plugins**.

@@ -25,7 +25,8 @@
 ## 安装
 
 ```bash
-dsh plugin add dsh-smart-proxy
+dsh plugin --profile web add dsh-smart-proxy       # Web / 插件中心
+dsh plugin --profile desktop add dsh-smart-proxy   # 桌面版
 ```
 
 安装后重启 `dsh web`，在「设置 → 插件」中确认 `smart-proxy` 已启用。
